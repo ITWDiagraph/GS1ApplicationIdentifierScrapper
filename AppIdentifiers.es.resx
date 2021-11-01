@@ -1,0 +1,3157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description00" xml:space="preserve">
+    <value>Código Seriado de Contenedor de Embarque (SSCC)</value>
+  </data>
+  <data name="Format00" xml:space="preserve">
+    <value>18 caracteres numéricos </value>
+  </data>
+  <data name="Description01" xml:space="preserve">
+    <value>Número Global de Artículo Comercial (GTIN)</value>
+  </data>
+  <data name="Format01" xml:space="preserve">
+    <value>14 caracteres numéricos </value>
+  </data>
+  <data name="Description02" xml:space="preserve">
+    <value>GTIN de los artículos comerciales contenidos</value>
+  </data>
+  <data name="Format02" xml:space="preserve">
+    <value>14 caracteres numéricos </value>
+  </data>
+  <data name="Description10" xml:space="preserve">
+    <value>Lote o número de lote</value>
+  </data>
+  <data name="Format10" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description11" xml:space="preserve">
+    <value>Fecha de producción (AAMMDD)</value>
+  </data>
+  <data name="Format11" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description12" xml:space="preserve">
+    <value>Fecha de vencimiento de pago (AAMMDD)</value>
+  </data>
+  <data name="Format12" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description13" xml:space="preserve">
+    <value>Fecha de envasado (AAMMDD)</value>
+  </data>
+  <data name="Format13" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description15" xml:space="preserve">
+    <value>Fecha de consumo preferente (AAMMDD)</value>
+  </data>
+  <data name="Format15" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description16" xml:space="preserve">
+    <value>Última fecha de venta (AAMMDD)</value>
+  </data>
+  <data name="Format16" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description17" xml:space="preserve">
+    <value>Fecha de vencimiento (AAMMDD)</value>
+  </data>
+  <data name="Format17" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description20" xml:space="preserve">
+    <value>Variante de producto interno</value>
+  </data>
+  <data name="Format20" xml:space="preserve">
+    <value>2 caracteres numéricos </value>
+  </data>
+  <data name="Description21" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="Format21" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description22" xml:space="preserve">
+    <value>Variante de producto de consumo</value>
+  </data>
+  <data name="Format22" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description235" xml:space="preserve">
+    <value>Extensión serializada controlada de GTIN de terceros (TPX)</value>
+  </data>
+  <data name="Format235" xml:space="preserve">
+    <value>0 to 28 caracteres </value>
+  </data>
+  <data name="Description240" xml:space="preserve">
+    <value>Identificación de producto adicional asignado por el fabricante</value>
+  </data>
+  <data name="Format240" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description241" xml:space="preserve">
+    <value>Número de pieza del cliente</value>
+  </data>
+  <data name="Format241" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description242" xml:space="preserve">
+    <value>Número de variación de “mandado a hacer”</value>
+  </data>
+  <data name="Format242" xml:space="preserve">
+    <value>0 to 6 caracteres numéricos </value>
+  </data>
+  <data name="Description243" xml:space="preserve">
+    <value>Número de componente de empaque</value>
+  </data>
+  <data name="Format243" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description250" xml:space="preserve">
+    <value>Número de serie secundario</value>
+  </data>
+  <data name="Format250" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description251" xml:space="preserve">
+    <value>Referencia a la entidad de origen</value>
+  </data>
+  <data name="Format251" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description253" xml:space="preserve">
+    <value>Identificador de tipo de documento global (GDTI)</value>
+  </data>
+  <data name="Format253" xml:space="preserve">
+    <value>13 caracteres numéricos 0 to 17 caracteres </value>
+  </data>
+  <data name="Description254" xml:space="preserve">
+    <value>Componente de extensión del GLN</value>
+  </data>
+  <data name="Format254" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description255" xml:space="preserve">
+    <value>Número de cupón global (GCN)</value>
+  </data>
+  <data name="Format255" xml:space="preserve">
+    <value>13 to 12 caracteres numéricos </value>
+  </data>
+  <data name="Description30" xml:space="preserve">
+    <value>Conteo variable de artículos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format30" xml:space="preserve">
+    <value>0 to 8 caracteres numéricos </value>
+  </data>
+  <data name="Description3100" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3100" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3101" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3101" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3102" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3102" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3103" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3103" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3104" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3104" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3105" xml:space="preserve">
+    <value>Peso neto, kilogramos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3105" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3110" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3110" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3111" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3111" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3112" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3112" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3113" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3113" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3114" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3114" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3115" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3115" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3120" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3120" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3121" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3121" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3122" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3122" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3123" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3123" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3124" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3124" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3125" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3125" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3130" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3130" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3131" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3131" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3132" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3132" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3133" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3133" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3134" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3134" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3135" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3135" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3140" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3140" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3141" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3141" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3142" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3142" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3143" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3143" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3144" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3144" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3145" xml:space="preserve">
+    <value>Área, metros cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3145" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3150" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3150" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3151" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3151" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3152" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3152" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3153" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3153" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3154" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3154" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3155" xml:space="preserve">
+    <value>Volumen neto, litros (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3155" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3160" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3160" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3161" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3161" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3162" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3162" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3163" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3163" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3164" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3164" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3165" xml:space="preserve">
+    <value>Volumen neto, metros cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3165" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3200" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3200" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3201" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3201" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3202" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3202" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3203" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3203" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3204" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3204" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3205" xml:space="preserve">
+    <value>Peso neto, libras (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3205" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3210" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3210" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3211" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3211" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3212" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3212" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3213" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3213" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3214" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3214" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3215" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3215" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3220" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3220" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3221" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3221" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3222" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3222" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3223" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3223" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3224" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3224" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3225" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3225" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3230" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3230" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3231" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3231" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3232" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3232" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3233" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3233" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3234" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3234" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3235" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3235" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3240" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3240" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3241" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3241" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3242" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3242" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3243" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3243" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3244" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3244" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3245" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3245" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3250" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3250" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3251" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3251" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3252" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3252" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3253" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3253" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3254" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3254" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3255" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3255" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3260" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3260" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3261" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3261" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3262" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3262" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3263" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3263" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3264" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3264" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3265" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3265" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3270" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3270" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3271" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3271" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3272" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3272" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3273" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3273" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3274" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3274" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3275" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3275" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3280" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3280" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3281" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3281" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3282" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3282" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3283" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3283" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3284" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3284" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3285" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3285" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3290" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3290" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3291" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3291" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3292" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3292" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3293" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3293" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3294" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3294" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3295" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3295" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3300" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3300" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3301" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3301" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3302" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3302" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3303" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3303" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3304" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3304" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3305" xml:space="preserve">
+    <value>Peso logístico, kilogramos</value>
+  </data>
+  <data name="Format3305" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3310" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3310" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3311" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3311" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3312" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3312" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3313" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3313" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3314" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3314" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3315" xml:space="preserve">
+    <value>Longitud o primera dimensión, metros</value>
+  </data>
+  <data name="Format3315" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3320" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3320" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3321" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3321" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3322" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3322" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3323" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3323" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3324" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3324" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3325" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, metros</value>
+  </data>
+  <data name="Format3325" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3330" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3330" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3331" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3331" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3332" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3332" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3333" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3333" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3334" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3334" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3335" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, metros</value>
+  </data>
+  <data name="Format3335" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3340" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3340" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3341" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3341" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3342" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3342" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3343" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3343" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3344" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3344" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3345" xml:space="preserve">
+    <value>Área, metros cuadrados</value>
+  </data>
+  <data name="Format3345" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3350" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3350" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3351" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3351" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3352" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3352" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3353" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3353" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3354" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3354" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3355" xml:space="preserve">
+    <value>Volumen logístico, litros</value>
+  </data>
+  <data name="Format3355" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3360" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3360" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3361" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3361" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3362" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3362" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3363" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3363" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3364" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3364" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3365" xml:space="preserve">
+    <value>Volumen logístico, metros cúbicos</value>
+  </data>
+  <data name="Format3365" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3370" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3370" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3371" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3371" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3372" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3372" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3373" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3373" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3374" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3374" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3375" xml:space="preserve">
+    <value>Kilogramos por metro cuadrado</value>
+  </data>
+  <data name="Format3375" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3400" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3400" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3401" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3401" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3402" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3402" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3403" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3403" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3404" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3404" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3405" xml:space="preserve">
+    <value>Peso logístico, libras</value>
+  </data>
+  <data name="Format3405" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3410" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3410" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3411" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3411" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3412" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3412" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3413" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3413" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3414" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3414" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3415" xml:space="preserve">
+    <value>Longitud o primera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3415" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3420" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3420" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3421" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3421" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3422" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3422" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3423" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3423" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3424" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3424" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3425" xml:space="preserve">
+    <value>Longitud o primera dimensión, pies</value>
+  </data>
+  <data name="Format3425" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3430" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3430" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3431" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3431" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3432" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3432" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3433" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3433" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3434" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3434" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3435" xml:space="preserve">
+    <value>Longitud o primera dimensión, yardas</value>
+  </data>
+  <data name="Format3435" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3440" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3440" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3441" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3441" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3442" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3442" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3443" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3443" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3444" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3444" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3445" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pulgadas</value>
+  </data>
+  <data name="Format3445" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3450" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3450" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3451" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3451" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3452" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3452" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3453" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3453" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3454" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3454" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3455" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, pies</value>
+  </data>
+  <data name="Format3455" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3460" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3460" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3461" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3461" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3462" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3462" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3463" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3463" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3464" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3464" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3465" xml:space="preserve">
+    <value>Ancho, diámetro, o segunda dimensión, yardas</value>
+  </data>
+  <data name="Format3465" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3470" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3470" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3471" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3471" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3472" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3472" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3473" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3473" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3474" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3474" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3475" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, pulgadas</value>
+  </data>
+  <data name="Format3475" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3480" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3480" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3481" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3481" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3482" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3482" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3483" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3483" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3484" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3484" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3485" xml:space="preserve">
+    <value>Profundidad, grosor, altura o tercera dimensión, pies</value>
+  </data>
+  <data name="Format3485" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3490" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3490" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3491" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3491" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3492" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3492" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3493" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3493" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3494" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3494" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3495" xml:space="preserve">
+    <value>Profundidad, grosor, altura, o tercera dimensión, yardas</value>
+  </data>
+  <data name="Format3495" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3500" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3500" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3501" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3501" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3502" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3502" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3503" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3503" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3504" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3504" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3505" xml:space="preserve">
+    <value>Área, pulgadas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3505" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3510" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3510" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3511" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3511" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3512" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3512" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3513" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3513" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3514" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3514" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3515" xml:space="preserve">
+    <value>Área, pies cuadrados (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3515" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3520" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3520" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3521" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3521" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3522" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3522" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3523" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3523" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3524" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3524" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3525" xml:space="preserve">
+    <value>Área, yardas cuadradas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3525" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3530" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3530" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3531" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3531" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3532" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3532" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3533" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3533" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3534" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3534" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3535" xml:space="preserve">
+    <value>Área, pulgadas cuadradas</value>
+  </data>
+  <data name="Format3535" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3540" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3540" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3541" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3541" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3542" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3542" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3543" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3543" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3544" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3544" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3545" xml:space="preserve">
+    <value>Área, pies cuadrados</value>
+  </data>
+  <data name="Format3545" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3550" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3550" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3551" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3551" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3552" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3552" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3553" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3553" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3554" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3554" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3555" xml:space="preserve">
+    <value>Área, yardas cuadradas</value>
+  </data>
+  <data name="Format3555" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3560" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3560" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3561" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3561" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3562" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3562" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3563" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3563" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3564" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3564" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3565" xml:space="preserve">
+    <value>Peso neto, onzas troy (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3565" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3570" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3570" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3571" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3571" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3572" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3572" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3573" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3573" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3574" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3574" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3575" xml:space="preserve">
+    <value>Peso neto (o volumen), onzas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3575" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3600" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3600" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3601" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3601" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3602" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3602" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3603" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3603" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3604" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3604" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3605" xml:space="preserve">
+    <value>Volumen neto, cuartos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3605" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3610" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3610" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3611" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3611" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3612" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3612" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3613" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3613" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3614" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3614" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3615" xml:space="preserve">
+    <value>Volumen neto, galones estadounidenses (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3615" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3620" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3620" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3621" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3621" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3622" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3622" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3623" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3623" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3624" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3624" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3625" xml:space="preserve">
+    <value>Volumen logístico, cuartos</value>
+  </data>
+  <data name="Format3625" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3630" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3630" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3631" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3631" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3632" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3632" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3633" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3633" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3634" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3634" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3635" xml:space="preserve">
+    <value>Volumen logístico, galones estadounidenses</value>
+  </data>
+  <data name="Format3635" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3640" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3640" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3641" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3641" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3642" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3642" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3643" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3643" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3644" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3644" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3645" xml:space="preserve">
+    <value>Volumen neto, pulgadas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3645" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3650" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3650" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3651" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3651" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3652" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3652" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3653" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3653" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3654" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3654" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3655" xml:space="preserve">
+    <value>Volumen neto, pies cúbicos (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3655" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3660" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3660" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3661" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3661" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3662" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3662" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3663" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3663" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3664" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3664" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3665" xml:space="preserve">
+    <value>Volumen neto, yardas cúbicas (artículo comercial de medidas variables)</value>
+  </data>
+  <data name="Format3665" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3670" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3670" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3671" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3671" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3672" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3672" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3673" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3673" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3674" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3674" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3675" xml:space="preserve">
+    <value>Volumen Logistic, pulgadas cúbicas</value>
+  </data>
+  <data name="Format3675" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3680" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3680" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3681" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3681" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3682" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3682" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3683" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3683" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3684" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3684" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3685" xml:space="preserve">
+    <value>Volumen logístico, de pies cúbicos</value>
+  </data>
+  <data name="Format3685" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3690" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3690" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3691" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3691" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3692" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3692" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3693" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3693" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3694" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3694" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3695" xml:space="preserve">
+    <value>Volumen logístico, yardas cúbicas</value>
+  </data>
+  <data name="Format3695" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description37" xml:space="preserve">
+    <value>Conteo de artículos comerciales o piezas de artículos comerciales contenidos en una unidad logística</value>
+  </data>
+  <data name="Format37" xml:space="preserve">
+    <value>0 to 8 caracteres numéricos </value>
+  </data>
+  <data name="Description3900" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3900" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3901" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3901" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3902" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3902" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3903" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3903" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3904" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3904" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3905" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3905" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3906" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3906" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3907" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3907" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3908" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3908" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3909" xml:space="preserve">
+    <value>Cantidad aplicable a pagar o valor de cupón/descuento, moneda local</value>
+  </data>
+  <data name="Format3909" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3910" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3910" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3911" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3911" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3912" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3912" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3913" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3913" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3914" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3914" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3915" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3915" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3916" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3916" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3917" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3917" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3918" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3918" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3919" xml:space="preserve">
+    <value>Cantidad aplicable a pagar con código de moneda ISO</value>
+  </data>
+  <data name="Format3919" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3920" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3920" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3921" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3921" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3922" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3922" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3923" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3923" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3924" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3924" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3925" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3925" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3926" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3926" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3927" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3927" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3928" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3928" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3929" xml:space="preserve">
+    <value>Importe aplicable a pagar, zona monetaria única (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3929" xml:space="preserve">
+    <value>0 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3930" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3930" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3931" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3931" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3932" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3932" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3933" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3933" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3934" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3934" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3935" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3935" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3936" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3936" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3937" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3937" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3938" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3938" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3939" xml:space="preserve">
+    <value>Importe aplicable a pagar con código de moneda ISO (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3939" xml:space="preserve">
+    <value>3 to 15 caracteres numéricos </value>
+  </data>
+  <data name="Description3940" xml:space="preserve">
+    <value>Porcentaje de descuento de un cupón</value>
+  </data>
+  <data name="Format3940" xml:space="preserve">
+    <value>4 caracteres numéricos </value>
+  </data>
+  <data name="Description3941" xml:space="preserve">
+    <value>Porcentaje de descuento de un cupón</value>
+  </data>
+  <data name="Format3941" xml:space="preserve">
+    <value>4 caracteres numéricos </value>
+  </data>
+  <data name="Description3942" xml:space="preserve">
+    <value>Porcentaje de descuento de un cupón</value>
+  </data>
+  <data name="Format3942" xml:space="preserve">
+    <value>4 caracteres numéricos </value>
+  </data>
+  <data name="Description3943" xml:space="preserve">
+    <value>Porcentaje de descuento de un cupón</value>
+  </data>
+  <data name="Format3943" xml:space="preserve">
+    <value>4 caracteres numéricos </value>
+  </data>
+  <data name="Description3950" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3950" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3951" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3951" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3952" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3952" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3953" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3953" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3954" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3954" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3955" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3955" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3956" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3956" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3957" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3957" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3958" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3958" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description3959" xml:space="preserve">
+    <value>Monto a pagar por unidad de medida, usa sólo un tipo de moneda (artículo comercial de medida variable)</value>
+  </data>
+  <data name="Format3959" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description400" xml:space="preserve">
+    <value>Número de orden de compra del cliente</value>
+  </data>
+  <data name="Format400" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description401" xml:space="preserve">
+    <value>Número de Identificación Global para Consignación (GINC)</value>
+  </data>
+  <data name="Format401" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description402" xml:space="preserve">
+    <value>Número de Identificación Global de Envío (GSIN)</value>
+  </data>
+  <data name="Format402" xml:space="preserve">
+    <value>17 caracteres numéricos </value>
+  </data>
+  <data name="Description403" xml:space="preserve">
+    <value>Número/Código de ruta</value>
+  </data>
+  <data name="Format403" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description410" xml:space="preserve">
+    <value>Enviar a / Enviar a Número Global de Localización</value>
+  </data>
+  <data name="Format410" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description411" xml:space="preserve">
+    <value>Cobrar a / Facturar a Número Global de Localización</value>
+  </data>
+  <data name="Format411" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description412" xml:space="preserve">
+    <value>Comprado de Número Global de Localización</value>
+  </data>
+  <data name="Format412" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description413" xml:space="preserve">
+    <value>Enviar para / Entregar - Reenviar a Número Global de Localización</value>
+  </data>
+  <data name="Format413" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description414" xml:space="preserve">
+    <value>Identificación de un lugar físico - Número de Localización Global</value>
+  </data>
+  <data name="Format414" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description415" xml:space="preserve">
+    <value>Número Global de Localización del emisor de la factura</value>
+  </data>
+  <data name="Format415" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description416" xml:space="preserve">
+    <value>GLN del lugar de producción o servicio</value>
+  </data>
+  <data name="Format416" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description417" xml:space="preserve">
+    <value>GLN de la empresa</value>
+  </data>
+  <data name="Format417" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description420" xml:space="preserve">
+    <value>Enviar a / Enviar a código postal dentro de una única autoridad postal</value>
+  </data>
+  <data name="Format420" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description421" xml:space="preserve">
+    <value>Enviar a / Enviar a código postal con código de país ISO</value>
+  </data>
+  <data name="Format421" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 9 caracteres </value>
+  </data>
+  <data name="Description422" xml:space="preserve">
+    <value>País de origen de un artículo comercial</value>
+  </data>
+  <data name="Format422" xml:space="preserve">
+    <value>3 caracteres numéricos </value>
+  </data>
+  <data name="Description423" xml:space="preserve">
+    <value>País de procesamiento inicial</value>
+  </data>
+  <data name="Format423" xml:space="preserve">
+    <value>3 to 12 caracteres numéricos </value>
+  </data>
+  <data name="Description424" xml:space="preserve">
+    <value>País de procesamiento</value>
+  </data>
+  <data name="Format424" xml:space="preserve">
+    <value>3 caracteres numéricos </value>
+  </data>
+  <data name="Description425" xml:space="preserve">
+    <value>País de desmontaje</value>
+  </data>
+  <data name="Format425" xml:space="preserve">
+    <value>3 to 12 caracteres numéricos </value>
+  </data>
+  <data name="Description426" xml:space="preserve">
+    <value>País cubriendo cadena de proceso completa</value>
+  </data>
+  <data name="Format426" xml:space="preserve">
+    <value>3 caracteres numéricos </value>
+  </data>
+  <data name="Description427" xml:space="preserve">
+    <value>Subdivisión de país de origen</value>
+  </data>
+  <data name="Format427" xml:space="preserve">
+    <value>0 to 3 caracteres </value>
+  </data>
+  <data name="Description4300" xml:space="preserve">
+    <value>Enviar a / Entregar a Nombre de la compañía</value>
+  </data>
+  <data name="Format4300" xml:space="preserve">
+    <value>0 to 35 caracteres </value>
+  </data>
+  <data name="Description4301" xml:space="preserve">
+    <value>Enviar a / Entregar a Contacto</value>
+  </data>
+  <data name="Format4301" xml:space="preserve">
+    <value>0 to 35 caracteres </value>
+  </data>
+  <data name="Description4302" xml:space="preserve">
+    <value>Enviar a / Entregar a Dirección línea 1</value>
+  </data>
+  <data name="Format4302" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4303" xml:space="preserve">
+    <value>Enviar a / Entregar a Dirección línea 2</value>
+  </data>
+  <data name="Format4303" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4304" xml:space="preserve">
+    <value>Enviar a / Entregar a colonia</value>
+  </data>
+  <data name="Format4304" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4305" xml:space="preserve">
+    <value>Enviar a / Entregar a localidad</value>
+  </data>
+  <data name="Format4305" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4306" xml:space="preserve">
+    <value>Enviar a / Entregar a región</value>
+  </data>
+  <data name="Format4306" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4307" xml:space="preserve">
+    <value>Enviar a / Entregar a código de país</value>
+  </data>
+  <data name="Format4307" xml:space="preserve">
+    <value>2 caracteres </value>
+  </data>
+  <data name="Description4308" xml:space="preserve">
+    <value>Enviar a / Entregar a número telefónico</value>
+  </data>
+  <data name="Format4308" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description4310" xml:space="preserve">
+    <value>Devolver a Nombre de compañia</value>
+  </data>
+  <data name="Format4310" xml:space="preserve">
+    <value>0 to 35 caracteres </value>
+  </data>
+  <data name="Description4311" xml:space="preserve">
+    <value>Devolver a Nombre del contacto</value>
+  </data>
+  <data name="Format4311" xml:space="preserve">
+    <value>0 to 35 caracteres </value>
+  </data>
+  <data name="Description4312" xml:space="preserve">
+    <value>Devolver a Dirección línea 1</value>
+  </data>
+  <data name="Format4312" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4313" xml:space="preserve">
+    <value>Devolver a Dirección línea 2</value>
+  </data>
+  <data name="Format4313" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4314" xml:space="preserve">
+    <value>Devolver a colonia</value>
+  </data>
+  <data name="Format4314" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4315" xml:space="preserve">
+    <value>Devolver a localidad</value>
+  </data>
+  <data name="Format4315" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4316" xml:space="preserve">
+    <value>Devolver a código de región</value>
+  </data>
+  <data name="Format4316" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description4317" xml:space="preserve">
+    <value>Devolver a código de país</value>
+  </data>
+  <data name="Format4317" xml:space="preserve">
+    <value>2 caracteres </value>
+  </data>
+  <data name="Description4318" xml:space="preserve">
+    <value>Devolver a Código postal</value>
+  </data>
+  <data name="Format4318" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description4319" xml:space="preserve">
+    <value>Devolver a número telefónico</value>
+  </data>
+  <data name="Format4319" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description4320" xml:space="preserve">
+    <value>Descripción del código de servicio</value>
+  </data>
+  <data name="Format4320" xml:space="preserve">
+    <value>0 to 35 caracteres </value>
+  </data>
+  <data name="Description4321" xml:space="preserve">
+    <value>Aviso de mercancía peligrosa</value>
+  </data>
+  <data name="Format4321" xml:space="preserve">
+    <value>1 caracteres numéricos </value>
+  </data>
+  <data name="Description4322" xml:space="preserve">
+    <value>Autorización para salir</value>
+  </data>
+  <data name="Format4322" xml:space="preserve">
+    <value>1 caracteres numéricos </value>
+  </data>
+  <data name="Description4323" xml:space="preserve">
+    <value>Notificación que requiere firma</value>
+  </data>
+  <data name="Format4323" xml:space="preserve">
+    <value>1 caracteres numéricos </value>
+  </data>
+  <data name="Description4324" xml:space="preserve">
+    <value>No entregar antes de Fecha</value>
+  </data>
+  <data name="Format4324" xml:space="preserve">
+    <value>10 caracteres numéricos </value>
+  </data>
+  <data name="Description4325" xml:space="preserve">
+    <value>No entregar después de Fecha</value>
+  </data>
+  <data name="Format4325" xml:space="preserve">
+    <value>10 caracteres numéricos </value>
+  </data>
+  <data name="Description4326" xml:space="preserve">
+    <value>Fecha de liberación</value>
+  </data>
+  <data name="Format4326" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description7001" xml:space="preserve">
+    <value>OTAN Número de stock (NSN)</value>
+  </data>
+  <data name="Format7001" xml:space="preserve">
+    <value>13 caracteres numéricos </value>
+  </data>
+  <data name="Description7002" xml:space="preserve">
+    <value>ONU / ECE clasificación de canales y cortes de carne</value>
+  </data>
+  <data name="Format7002" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description7003" xml:space="preserve">
+    <value>Fecha y hora de caducidad</value>
+  </data>
+  <data name="Format7003" xml:space="preserve">
+    <value>10 caracteres numéricos </value>
+  </data>
+  <data name="Description7004" xml:space="preserve">
+    <value>Potencia activa</value>
+  </data>
+  <data name="Format7004" xml:space="preserve">
+    <value>0 to 4 caracteres numéricos </value>
+  </data>
+  <data name="Description7005" xml:space="preserve">
+    <value>Zona de captura</value>
+  </data>
+  <data name="Format7005" xml:space="preserve">
+    <value>0 to 12 caracteres </value>
+  </data>
+  <data name="Description7006" xml:space="preserve">
+    <value>Primera fecha de congelación</value>
+  </data>
+  <data name="Format7006" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description7007" xml:space="preserve">
+    <value>Fecha de cosecha</value>
+  </data>
+  <data name="Format7007" xml:space="preserve">
+    <value>6 to 12 caracteres numéricos </value>
+  </data>
+  <data name="Description7008" xml:space="preserve">
+    <value>Especies con fines pesqueros</value>
+  </data>
+  <data name="Format7008" xml:space="preserve">
+    <value>0 to 3 caracteres </value>
+  </data>
+  <data name="Description7009" xml:space="preserve">
+    <value>Tipo de equipo de Pesca</value>
+  </data>
+  <data name="Format7009" xml:space="preserve">
+    <value>0 to 10 caracteres </value>
+  </data>
+  <data name="Description7010" xml:space="preserve">
+    <value>Método de producción</value>
+  </data>
+  <data name="Format7010" xml:space="preserve">
+    <value>0 to 2 caracteres </value>
+  </data>
+  <data name="Description7020" xml:space="preserve">
+    <value>ID de lote remodelación</value>
+  </data>
+  <data name="Format7020" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description7021" xml:space="preserve">
+    <value>Estado funcional</value>
+  </data>
+  <data name="Format7021" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description7022" xml:space="preserve">
+    <value>Estado de revisión</value>
+  </data>
+  <data name="Format7022" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description7023" xml:space="preserve">
+    <value>Identificador Global de un Bien Individual (GIAI) de un ensamblado</value>
+  </data>
+  <data name="Format7023" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description7030" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7030" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7031" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7031" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7032" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7032" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7033" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7033" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7034" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7034" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7035" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7035" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7036" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7036" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7037" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7037" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7038" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7038" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7039" xml:space="preserve">
+    <value>Número de procesador con código de país ISO</value>
+  </data>
+  <data name="Format7039" xml:space="preserve">
+    <value>3 caracteres numéricos 0 to 27 caracteres </value>
+  </data>
+  <data name="Description7040" xml:space="preserve">
+    <value>GS1 UIC con extensión 1 e índice de Importador</value>
+  </data>
+  <data name="Format7040" xml:space="preserve">
+    <value>1 caracteres numéricos 3 caracteres </value>
+  </data>
+  <data name="Description710" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - PZN Alemania</value>
+  </data>
+  <data name="Format710" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description711" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - CIP Francia</value>
+  </data>
+  <data name="Format711" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description712" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - CN España</value>
+  </data>
+  <data name="Format712" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description713" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - DRN Brasil</value>
+  </data>
+  <data name="Format713" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description714" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - AIM Portugal</value>
+  </data>
+  <data name="Format714" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description7230" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7230" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7231" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7231" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7232" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7232" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7233" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7233" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7234" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7234" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7235" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7235" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7236" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7236" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7237" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7237" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7238" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7238" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7239" xml:space="preserve">
+    <value>Referencia para la certificación</value>
+  </data>
+  <data name="Format7239" xml:space="preserve">
+    <value>2 to 28 caracteres </value>
+  </data>
+  <data name="Description7240" xml:space="preserve">
+    <value>ID de protocolo</value>
+  </data>
+  <data name="Format7240" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description8001" xml:space="preserve">
+    <value>Número nacional de reembolso en Salud (NHRN) - NHRN País “A”</value>
+  </data>
+  <data name="Format8001" xml:space="preserve">
+    <value>14 caracteres numéricos </value>
+  </data>
+  <data name="Description8002" xml:space="preserve">
+    <value>Identificador de telefonía móvil celular</value>
+  </data>
+  <data name="Format8002" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description8003" xml:space="preserve">
+    <value>Identificador Global de Bien Retornable (GRAI)</value>
+  </data>
+  <data name="Format8003" xml:space="preserve">
+    <value>14 caracteres numéricos 0 to 16 caracteres </value>
+  </data>
+  <data name="Description8004" xml:space="preserve">
+    <value>Identificador Global de Bien Individual (GIAI)</value>
+  </data>
+  <data name="Format8004" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description8005" xml:space="preserve">
+    <value>Precio por unidad de medida</value>
+  </data>
+  <data name="Format8005" xml:space="preserve">
+    <value>6 caracteres numéricos </value>
+  </data>
+  <data name="Description8006" xml:space="preserve">
+    <value>Identification of an individual trade item piece (ITIP)</value>
+  </data>
+  <data name="Format8006" xml:space="preserve">
+    <value>2 caracteres numéricos </value>
+  </data>
+  <data name="Description8007" xml:space="preserve">
+    <value>Número de cuenta bancaria internacional (IBAN)</value>
+  </data>
+  <data name="Format8007" xml:space="preserve">
+    <value>0 to 34 caracteres </value>
+  </data>
+  <data name="Description8008" xml:space="preserve">
+    <value>Fecha y hora de la producción</value>
+  </data>
+  <data name="Format8008" xml:space="preserve">
+    <value>8 to 4 caracteres numéricos </value>
+  </data>
+  <data name="Description8009" xml:space="preserve">
+    <value>Indicador del sensor ópticamente legible</value>
+  </data>
+  <data name="Format8009" xml:space="preserve">
+    <value>0 to 50 caracteres </value>
+  </data>
+  <data name="Description8010" xml:space="preserve">
+    <value>Identificador de componente / parte (CPID)</value>
+  </data>
+  <data name="Format8010" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description8011" xml:space="preserve">
+    <value>Número de serie de identificador de componente / parte de (CPID DE SERIE)</value>
+  </data>
+  <data name="Format8011" xml:space="preserve">
+    <value>0 to 12 caracteres numéricos </value>
+  </data>
+  <data name="Description8012" xml:space="preserve">
+    <value>Versión del software</value>
+  </data>
+  <data name="Format8012" xml:space="preserve">
+    <value>0 to 20 caracteres </value>
+  </data>
+  <data name="Description8013" xml:space="preserve">
+    <value>Número Global de Modelo (GMN)</value>
+  </data>
+  <data name="Format8013" xml:space="preserve">
+    <value>0 to 25 caracteres </value>
+  </data>
+  <data name="Description8017" xml:space="preserve">
+    <value>Número de Relación de Servicio Global para identificar la relación entre una organización que ofrece servicios y el proveedor de los servicios</value>
+  </data>
+  <data name="Format8017" xml:space="preserve">
+    <value>18 caracteres numéricos </value>
+  </data>
+  <data name="Description8018" xml:space="preserve">
+    <value>Número de Relación de Servicio Global para identificar la relación entre una organización que ofrece servicios y el receptor de los servicios</value>
+  </data>
+  <data name="Format8018" xml:space="preserve">
+    <value>18 caracteres numéricos </value>
+  </data>
+  <data name="Description8019" xml:space="preserve">
+    <value>Número de instancia de relación de servicio (SRIN)</value>
+  </data>
+  <data name="Format8019" xml:space="preserve">
+    <value>0 to 10 caracteres numéricos </value>
+  </data>
+  <data name="Description8020" xml:space="preserve">
+    <value>Número de referencia de comprobante de pago</value>
+  </data>
+  <data name="Format8020" xml:space="preserve">
+    <value>0 to 25 caracteres </value>
+  </data>
+  <data name="Description8026" xml:space="preserve">
+    <value>Identificación de las piezas de un artículo comercial (ITIP) contenidas en una unidad logística</value>
+  </data>
+  <data name="Format8026" xml:space="preserve">
+    <value>2 caracteres numéricos </value>
+  </data>
+  <data name="Description8110" xml:space="preserve">
+    <value>Identificación de código de cupón para uso en Norte América</value>
+  </data>
+  <data name="Format8110" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description8111" xml:space="preserve">
+    <value>Puntos de fidelidad de un cupón</value>
+  </data>
+  <data name="Format8111" xml:space="preserve">
+    <value>4 caracteres numéricos </value>
+  </data>
+  <data name="Description8112" xml:space="preserve">
+    <value>Identificación de código de cupón sin papel para uso en América del Norte</value>
+  </data>
+  <data name="Format8112" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description8200" xml:space="preserve">
+    <value>URL de embalaje extendido</value>
+  </data>
+  <data name="Format8200" xml:space="preserve">
+    <value>0 to 70 caracteres </value>
+  </data>
+  <data name="Description90" xml:space="preserve">
+    <value>Información de mutuo acuerdo entre socios comerciales</value>
+  </data>
+  <data name="Format90" xml:space="preserve">
+    <value>0 to 30 caracteres </value>
+  </data>
+  <data name="Description91" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format91" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description92" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format92" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description93" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format93" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description94" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format94" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description95" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format95" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description96" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format96" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description97" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format97" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description98" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format98" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+  <data name="Description99" xml:space="preserve">
+    <value>Información interna de compañía</value>
+  </data>
+  <data name="Format99" xml:space="preserve">
+    <value>0 to 90 caracteres </value>
+  </data>
+</root>
